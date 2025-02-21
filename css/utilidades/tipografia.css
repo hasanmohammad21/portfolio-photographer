@@ -24,6 +24,8 @@
 
 .font-2-m {
     font: 400 1.125rem/1.4 "Roboto", sans-serif;
+    list-style-type: disc; /* Makes sure the bullets appear */
+    padding-left: 20px; /* Adds some space to the left so bullets don't touch the text */
 }
 
 .font-2-l {
