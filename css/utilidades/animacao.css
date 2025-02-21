@@ -7,3 +7,11 @@
     transform: none;
     transition: transform 0.8s, opacity 0.8s;
 }
+
+.zoom-img {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.zoom-img:hover {
+    transform: scale(1.1); /* Zoom in effect */
+}
