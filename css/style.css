@@ -13,3 +13,12 @@
 @import "css/conteudo/testimonials.css";
 @import "css/conteudo/contact.css";
 @import "css/conteudo/footer.css";
+
+.zoom-img {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.zoom-img:hover {
+    transform: scale(1.1); /* Zoom in effect */
+}
+
